@@ -1,0 +1,15 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'idea'
+
+group = 'com.joshua.geek'
+version = '0.1.0-SHAPSHOT'
+
+repositories {
+
+    maven { url "http://repo.maven.apache.org/maven2" }
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version:'4.11'
+}
